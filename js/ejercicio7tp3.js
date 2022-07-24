@@ -1,4 +1,4 @@
-let numero=parseInt(prompt("Ingrese el numero para mostrar su tabla de multiplicar"));
+let numero=parseInt(prompt("Ingrese el numero para mostrar su tabla de multiplicar"))
 tabla(numero)
 
 function tabla(numero){
@@ -17,7 +17,7 @@ function tabla(numero){
             <td>${numero * i}</td>
         </tr>`);  
     }
-    document.write(`</tbody> </table>`);
+    document.write(`</tbody> </table>`)
 }
 
 
